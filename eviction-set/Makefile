@@ -1,5 +1,5 @@
 NVCC = nvcc
-FLAGS = -arch=sm_80 -Xptxas -O0
+FLAGS = -arch=sm_89 -Xptxas -O0
 
 FILES = finder.cu
 BINS = $(FILES:.cu=)
